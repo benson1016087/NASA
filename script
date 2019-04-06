@@ -1,8 +1,8 @@
 # System authorization information
 auth --enableshadow --passalgo=sha512
 # Use distribution tree installation
-repo --name=base --baseurl=httpcentos.cs.nctu.edu.tw7osx86_64
-url --url=httpcentos.cs.nctu.edu.tw7osx86_64
+repo --name=base --baseurl=http://centos.cs.nctu.edu.tw/7/os/x86_64/
+url --url="http://centos.cs.nctu.edu.tw/7/os/x86_64/"
 # Use graphical install
 graphical
 # Run the Setup Agent on first boot
